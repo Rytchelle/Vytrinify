@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🖥️ Vitrinify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Sua vitrine digital para dar visibilidade a negócios locais.**  
+Feito com React, estilo moderno e dark mode. Ideal para pequenas empresas, startups, eventos e comunidades!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💡 Objetivo
 
-### `npm start`
+Facilitar a divulgação de empresas em um só lugar, através de um formulário simples e eficiente.  
+A Vitrinify permite que qualquer negócio seja exibido de forma bonita, rápida e funcional.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 Campos do Formulário
 
-### `npm test`
+- 🏷️ Nome da empresa  
+- 🧩 Ramo de atuação  
+- 📝 Descrição do negócio  
+- 🖼️ Imagem da empresa (via URL)  
+- 📞 Telefone para contato  
+- 📧 E-mail  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖼️ Interface e Estilo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🎨 **Design dark moderno**  
+- 📱 **Layout totalmente responsivo**  
+- ✅ **Validação de campos básica**  
+- 🧠 Interface leve, simples e amigável  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Funcionalidades
 
-### `npm run eject`
+- Formulário dinâmico com feedback visual  
+- Cards exibindo empresas cadastradas  
+- Preparado para integração com backend  
+- Fácil de personalizar e expandir  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tecnologias Utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Tecnologia | Função |
+|------------|--------|
+| ⚛️ React | Construção da interface e componentes |
+| 🎨 CSS | Estilização personalizada (dark mode) |
+| 🧱 Bootstrap | Layouts responsivos e prontos para uso |
+| 🔁 Axios ou fetch (opcional) | Envio de dados ao backend/API |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📦 Como Rodar Localmente
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/vitrinify.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 2. Acesse o diretório
+cd vitrinify
 
-### Code Splitting
+# 3. Instale as dependências
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4. Inicie o projeto
+npm start
