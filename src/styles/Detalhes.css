@@ -1,0 +1,435 @@
+body{
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-style: none;
+    background-color: black;
+    }
+    
+    
+    
+    header{
+        margin-top: 60px;
+        border-top: 2px solid rgb(255, 255, 255);   /* Borda superior */
+        border-bottom: 2px solid rgb(255, 255, 255); /* Borda inferior */
+        box-sizing: border-box; /* Adicione esta linha */
+        padding: 40px;                 /* Espaçamento interno */
+        text-align: center;            /* Centraliza o texto */
+    }
+    a{
+      text-decoration: none;
+    font-style: none;
+    color: wheat;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    nav > .nav{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+    
+    }
+    
+    
+    .model{
+    border-radius: 4px;
+    margin-left: 70px;
+    height: 550px;
+    width: 550px;
+    }
+    
+    .section{
+    
+     margin-top: 70px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    align-items: flex-start;
+    }
+    
+    .section > .position > h1{
+       
+      margin-top: 40px;
+        font-family: "Arima", serif;
+        font-weight: 300;
+      
+        font-size: 50px;
+    
+    }
+    .section > .position > p{
+      margin-bottom: 65px;
+      margin-left: -30px;
+      border-radius: 20px;
+      padding: 20px;
+      margin-top: 50px;
+  background-color: rgb(43, 41, 41);
+    }
+  
+    .section > .position > h6{
+  
+  margin-bottom: 70px;
+  
+  
+    }
+    .position{
+      max-width: 500px;
+      margin-top: -40px;
+        margin-left: 120px ;
+    display:table-column-group;
+    }
+  
+    
+    nav{
+        box-sizing: border-box; /* Importante para evitar aumento de tamanho */
+    }
+    
+    
+       
+    
+    .name > a 
+    {
+        color: rgb(255, 255, 255); /* Cor do texto */
+        padding: 10px; /* Espaçamento interno */
+        border-radius: 20px;
+        transition: background-color 0.5s; /* Transição suave */
+        box-sizing: border-box; /* Adicione esta linha */
+        transition: color 1s;
+        line-height: 0.2;
+    }
+    
+    .name > a:hover {
+    
+        border: 2px solid;
+        border-color: rgb(238, 238, 238);
+        color: #000;
+        background-color: rgb(255, 255, 255); /* Cor de fundo ao passar o mouse */
+    }
+    
+        
+        
+    .logo {
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      color: white;
+      margin-left: 40px;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+    
+    span{
+      font-weight: 800;
+      color: rgb(65, 157, 110);
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-right: auto;
+    }
+  
+
+    h3{
+display: flex;
+flex-direction: row;
+margin-right: 10px;
+p{
+
+    color: #000;
+}
+
+    }
+    .contato-botoes {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    .botao-email,
+    .botao-whatsapp {
+      margin-left: 70px;
+      margin-bottom: 70px;
+      margin-top: -20px;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    
+    .botao-email {
+      background-color: #007bff;
+    }
+    
+    .botao-email:hover {
+      background-color: #0056b3;
+    }
+    
+    .botao-whatsapp {
+      margin-left: 20px;
+      background-color: #25D366;
+    }
+    
+    .botao-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+    
+    .email {
+  background-color: #2b2b2b; /* Cor de fundo */
+  margin-left: 10px;
+      margin-bottom: 70px;
+      margin-top: -20px;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+}
+
+.email span {
+  font-weight: bold; /* Destacar a palavra "Email" */
+  color: #86cbf3; /* Cor suave */
+}
+
+.email:hover {
+  background-color: #3a3a3a; /* Mudança de cor ao passar o mouse */
+}
+
+.email span:hover {
+  color: #a4dbff; /* Destacar a palavra "Email" no hover */
+}
+
+/* -------- CSS EXISTENTE (sem alterações) -------- */
+/* ... [seu CSS original copiado acima] ... */
+
+/* -------- RESPONSIVIDADE -------- */
+
+/* Para telas até 1024px (tablets, iPads e notebooks pequenos) */
+@media (max-width: 1024px) {
+  header {
+    padding: 30px;
+  }
+
+  .model {
+    width: 400px;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  .position {
+    margin-left: 50px;
+    max-width: 90%;
+  }
+
+  .section > .position > h1 {
+    font-size: 40px;
+  }
+
+  .section > .position > p {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .contato-botoes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botao-email,
+  .botao-whatsapp {
+    margin: 10px 0;
+  }
+}
+
+/* Para telas até 600px (celulares) */
+@media (max-width: 600px) {
+  nav > .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .model {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .position {
+    margin: 0;
+    padding: 0 10px;
+    max-width: 100%;
+  }
+
+  .section > .position > h1 {
+    font-size: 28px;
+  }
+
+  .section > .position > p {
+    font-size: 14px;
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+  .logo {
+    font-size: 22px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .contato-botoes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botao-email,
+  .botao-whatsapp,
+  .email {
+    margin: 10px 0;
+    width: 90%;
+    text-align: center;
+  }
+
+  .name > a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  span {
+    font-size: 18px;
+  }
+}
+/* -------- RESPONSIVIDADE ADICIONAL -------- */
+
+/* Para telas de até 1024px (tablets, notebooks menores) */
+@media (max-width: 1024px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .model {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 30px auto;
+  }
+
+  .position {
+    margin: 0;
+    padding: 0 20px;
+    max-width: 90%;
+  }
+
+  .section > .position > h1 {
+    font-size: 36px;
+  }
+
+  .section > .position > p {
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .contato-botoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .botao-email,
+  .botao-whatsapp,
+  .email {
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .logo {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  nav > .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+/* Para telas de até 600px (celulares) */
+@media (max-width: 600px) {
+  .section > .position > h1 {
+    font-size: 28px;
+  }
+
+  .section > .position > p {
+    font-size: 14px;
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+  .name > a {
+    font-size: 14px;
+    padding: 8px;
+    display: block;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  nav > .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .position {
+    padding: 0 10px;
+  }
+
+  .botao-email,
+  .botao-whatsapp,
+  .email {
+    font-size: 14px;
+    width: 90%;
+  }
+}
+/* Adicionando overflow e max-width no link/email para evitar que saia do quadrado */
+.email {
+  background-color: #2b2b2b; /* Cor de fundo */
+  margin-left: 10px;
+  margin-bottom: 70px;
+  margin-top: -20px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  max-width: 100%; /* Garantir que o botão de email ocupe no máximo 100% da largura */
+  overflow: hidden; /* Impede que o conteúdo ultrapasse o limite do botão */
+  box-sizing: border-box; /* Conta o padding dentro da largura total */
+  word-wrap: break-word; /* Quebra a palavra longa para evitar overflow */
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 600px) {
+  .email {
+    width: 100%; /* Garante que o botão de email ocupe toda a largura disponível */
+    text-align: center;
+    padding: 15px 10px; /* Ajusta o padding para ficar mais apropriado em telas pequenas */
+  }
+}
+
+

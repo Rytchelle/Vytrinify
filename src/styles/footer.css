@@ -1,0 +1,33 @@
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    border-top: 2px solid rgb(106, 103, 103);   /* Borda superior */
+    box-sizing: border-box; /* Adicione esta linha */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .footer-links a {
+    color: #b0a8a8;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    color: #3d3b3b;
+    text-decoration: underline;
+  }
+  
