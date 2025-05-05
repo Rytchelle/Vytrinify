@@ -1,81 +1,68 @@
-# 🖥️ VITRINIFY
+# 🖥️ Vitrinify
 
-> **Sua vitrine digital moderna para negócios locais**
-
----
-
-## 🧩 SOBRE O PROJETO
-
-🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫  
-🟫                                          🟫  
-🟫   💼 **Vitrinify** é uma aplicação web    🟫  
-🟫   moderna, feita com React, que          🟫  
-🟫   permite a empresas criarem vitrines     🟫  
-🟫   digitais simples, bonitas e rápidas.   🟫  
-🟫                                          🟫  
-🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫  
+**Sua vitrine digital para dar visibilidade a negócios locais.**  
+Feito com React, estilo moderno e dark mode. Ideal para pequenas empresas, startups, eventos e comunidades!
 
 ---
 
-## 🎯 OBJETIVO
+## 💡 Objetivo
 
-📌 **Centralizar e facilitar a divulgação de empresas locais, startups e negócios independentes.**  
-📌 Um único formulário com os dados principais da empresa.
-
----
-
-## 📋 CAMPOS DO FORMULÁRIO
-
-📝 Nome da Empresa  
-🏷️ Ramo de Atuação  
-💬 Descrição  
-🖼️ Imagem (via URL)  
-📞 Telefone  
-📧 E-mail  
+Facilitar a divulgação de empresas em um só lugar, através de um formulário simples e eficiente.  
+A Vitrinify permite que qualquer negócio seja exibido de forma bonita, rápida e funcional.
 
 ---
 
-## 🖼️ INTERFACE
+## 📋 Campos do Formulário
 
-🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫  
-🟫 💡 Design moderno e escuro (dark mode)   🟫  
-🟫 📱 Totalmente responsivo (mobile-first) 🟫  
-🟫 ✨ Interface leve e intuitiva            🟫  
-🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫  
-
----
-
-## 🚀 FUNCIONALIDADES
-
-✔️ Formulário com validação de campos  
-✔️ Cadastro dinâmico de empresas  
-✔️ Exibição tipo vitrine em cards  
-✔️ Fácil integração com backend/API  
+- 🏷️ Nome da empresa  
+- 🧩 Ramo de atuação  
+- 📝 Descrição do negócio  
+- 🖼️ Imagem da empresa (via URL)  
+- 📞 Telefone para contato  
+- 📧 E-mail  
 
 ---
 
-## 🛠️ TECNOLOGIAS UTILIZADAS
+## 🖼️ Interface e Estilo
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| ⚛️ React    | Biblioteca principal para construção da interface |
-| 🎨 CSS     | Estilização personalizada da aplicação |
-| 🧱 Bootstrap | Framework CSS para responsividade |
-| 🔄 Axios ou Fetch (opcional) | Para enviar dados ao backend |
+- 🎨 **Design dark moderno**  
+- 📱 **Layout totalmente responsivo**  
+- ✅ **Validação de campos básica**  
+- 🧠 Interface leve, simples e amigável  
 
 ---
 
-## 🧪 COMO EXECUTAR LOCALMENTE
+## 🚀 Funcionalidades
+
+- Formulário dinâmico com feedback visual  
+- Cards exibindo empresas cadastradas  
+- Preparado para integração com backend  
+- Fácil de personalizar e expandir  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Função |
+|------------|--------|
+| ⚛️ React | Construção da interface e componentes |
+| 🎨 CSS | Estilização personalizada (dark mode) |
+| 🧱 Bootstrap | Layouts responsivos e prontos para uso |
+| 🔁 Axios ou fetch (opcional) | Envio de dados ao backend/API |
+
+---
+
+## 📦 Como Rodar Localmente
 
 ```bash
-# Clone o repositório
+# 1. Clone o repositório
 git clone https://github.com/seu-usuario/vitrinify.git
 
-# Acesse a pasta
+# 2. Acesse o diretório
 cd vitrinify
 
-# Instale as dependências
+# 3. Instale as dependências
 npm install
 
-# Inicie o servidor
+# 4. Inicie o projeto
 npm start
