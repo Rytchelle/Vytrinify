@@ -1,4 +1,6 @@
+
 🖥️ Vitrinify
+
 Vitrinify é uma aplicação web desenvolvida com React que funciona como uma vitrine digital para empresas. Com um visual moderno em modo escuro, ela permite que negócios locais se cadastrem e divulguem suas informações de forma simples, rápida e atrativa.
 
 💡 Objetivo
@@ -16,13 +18,12 @@ Contato telefônico
 
 E-mail
 
+
 Ideal para:
 
-Pequenas empresas
+Medias/Pequenas empresas
 
 Startups
-
-Feiras e eventos
 
 Comunidades que promovem negócios locais
 
