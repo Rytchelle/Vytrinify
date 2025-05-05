@@ -67,6 +67,8 @@ npm install
 # 4. Inicie o projeto
 npm start
 
+..................................................
+facilitar cadstros
 
-https://dontpad.com/vitriny-fy facilitar cadstros
+https://dontpad.com/vitriny-fy 
 
